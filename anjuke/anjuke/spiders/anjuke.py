@@ -100,13 +100,13 @@ class AnjukeSpider(scrapy.Spider):
             item['image_path'] = image_path
 
             # 下载图片
-            # fname_list = []
-            # for url in image_path:
-            #     fname = str(uuid.uuid4()) + '.jpg'
-            #     request.urlretrieve(url,os.path.join(settings.Base_dir,'images/') + fname)
-            #     fname_list.append(fname)
-            #
-            # item['image_path'] = '|'.join(fname_list)
+            fname_list = []
+            for url in image_path:
+                fname = str(uuid.uuid4()) + '.jpg'
+                request.urlretrieve(url,os.path.join(settings.Base_dir,'images/') + fname)
+                fname_list.append(fname)
+            
+            item['image_path'] = '|'.join(fname_list)
 
             yield item
             #print(title,money,rent_type,house_type,area,location,level)
