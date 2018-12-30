@@ -1,0 +1,70 @@
+[INFO  - 2018-07-25T02:22:11.516Z] GhostDriver - Main - running on port 51146
+[INFO  - 2018-07-25T02:22:12.491Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-07-25T02:22:12.491Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.customHeaders:  - {}
+[INFO  - 2018-07-25T02:22:12.491Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-07-25T02:22:12.491Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8a2b5880-8fb1-11e8-8306-33869d24ca8a
+[ERROR - 2018-07-25T02:22:12.496Z] RouterReqHand - _handle.error - {"name":"Missing Command Parameter","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Connection\":\"close\",\"Content-Length\":\"71\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:51146\",\"User-Agent\":\"selenium/3.12.0 (python mac)\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"pageLoad\\\": 2000, \\\"sessionId\\\": \\\"8a2b5880-8fb1-11e8-8306-33869d24ca8a\\\"}\",\"url\":\"/timeouts\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"timeouts\",\"directory\":\"/\",\"path\":\"/timeouts\",\"relative\":\"/timeouts\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/timeouts\",\"queryKey\":{},\"chunks\":[\"timeouts\"]},\"urlOriginal\":\"/session/8a2b5880-8fb1-11e8-8306-33869d24ca8a/timeouts\"}","line":546,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_postTimeout@phantomjs://code/session_request_handler.js:546:73\n_handle@phantomjs://code/session_request_handler.js:148:25\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:13.778Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - msg: TypeError: undefined is not an object (evaluating 'globalTicker.client')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:13.778Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - stack:
+  startSocketHub (https://static.feixiaohao.com/Scripts/common-1.1.js?v=1.65:842)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:17.360Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - msg: TypeError: undefined is not an object (evaluating 'globalTicker.client')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:17.360Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - stack:
+  startSocketHub (https://static.feixiaohao.com/Scripts/common-1.1.js?v=1.65:842)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:20.556Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - msg: TypeError: undefined is not an object (evaluating 'globalTicker.client')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:20.557Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - stack:
+  startSocketHub (https://static.feixiaohao.com/Scripts/common-1.1.js?v=1.65:842)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:24.588Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - msg: TypeError: undefined is not an object (evaluating 'globalTicker.client')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:24.597Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - stack:
+  startSocketHub (https://static.feixiaohao.com/Scripts/common-1.1.js?v=1.65:842)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:31.824Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - msg: TypeError: undefined is not an object (evaluating 'globalTicker.client')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:31.824Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - stack:
+  startSocketHub (https://static.feixiaohao.com/Scripts/common-1.1.js?v=1.65:842)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:32.492Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - msg: TypeError: undefined is not an object (evaluating 'globalTicker.client')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:32.492Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - stack:
+  startSocketHub (https://static.feixiaohao.com/Scripts/common-1.1.js?v=1.65:842)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:36.694Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - msg: TypeError: undefined is not an object (evaluating 'globalTicker.client')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:36.700Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - stack:
+  startSocketHub (https://static.feixiaohao.com/Scripts/common-1.1.js?v=1.65:842)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:39.799Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - msg: TypeError: undefined is not an object (evaluating 'globalTicker.client')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-07-25T02:22:39.799Z] Session [8a2b5880-8fb1-11e8-8306-33869d24ca8a] - page.onError - stack:
+  startSocketHub (https://static.feixiaohao.com/Scripts/common-1.1.js?v=1.65:842)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-07-25T02:27:11.526Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-07-25T02:32:11.542Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-07-25T02:37:11.549Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-07-25T02:42:11.555Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-07-25T02:47:11.558Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-07-25T02:52:11.562Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
